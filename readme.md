@@ -1,4 +1,4 @@
-# Mastering API
+# Expense Tracker App
 
 > Backend API development learning
 
