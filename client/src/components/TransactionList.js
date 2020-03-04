@@ -28,7 +28,7 @@ export const TransactionList = () => {
               <Text style={item.amount < 0 ? {color: 'red', fontSize:'20px'} : {color:'green', fontSize:'20px'}}>
           {numberWithCommas(item.text)}</Text> 
           <Text style= {{fontSize:'20px'}} >{item.amount < 0 ? ' -$' : '+$'}{numberWithCommas(Math.abs(item.amount))}</Text>  {'  '}
-          <Button onClick={() => deleteTransaction(item._id)} type="danger">x</Button>
+          <Button  size='small' onClick={() => deleteTransaction(item._id)} type="danger">x</Button>
           </List.Item>  
           )}
         />

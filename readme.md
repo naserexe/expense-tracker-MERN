@@ -5,3 +5,4 @@
 ## Usage
 
 Rename "config/config.env.env" to "config/config.env"
+and use your information
