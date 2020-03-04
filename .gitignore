@@ -1,9 +1,8 @@
 node_modules
+build
 config/config.env
 
 
 # testing
 /coverage
 
-# production
-/build
